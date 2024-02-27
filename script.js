@@ -15,3 +15,12 @@ fetch(apiUrl)
   .catch(error => {
     console.error('Error:', error);
   });
+
+ /*######################################################
+
+ In order to make this weather app adaptable to different locations you will need to use
+ a location api to retreive lattitude and longitude. Then you would need to pass this 
+ locations information into the weather api call as arguments in order to get the local
+ weather imformation.
+
+ #######################################################*/
